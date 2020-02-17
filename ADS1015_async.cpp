@@ -280,5 +280,11 @@ byte ADS1015_async::startConversion()
   return (0);
 }
 
+// Kibbi's edit
+byte ADS1015_async::getAddr() 
+{
+  return (_I2Caddr); 
+}
+
 // END OF FILE
 

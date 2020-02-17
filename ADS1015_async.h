@@ -42,6 +42,7 @@ class ADS1015_async {
     float getVoltage();
 	float getGain();
 	byte getPrecision();
+	byte getAddr();
   private:
     byte _I2Caddr;
     byte _inputSelect;
